@@ -24,28 +24,21 @@ const CreatePost = () => {
     const handleSubmit = (e) => {
       e.preventDefault();
       if (!inputRef.current.value) return;
-      const formData = new FormData();
-  
-      formData.append("file", imageToPost);
-      console.log("imagetopost: " + imageToPost);
-      formData.append("post", inputRef.current.value);
-      formData.append("name", session?.user.name);
-      formData.append("email", session?.user.email);
-      formData.append("profilePic", session?.user.image);
-  
-      axios
-        .post(FACEBOOK_CLONE_ENDPOINT, formData, {
-          headers: { Accept: "application/json" },
-        })
-        .then((response) => {
-          inputRef.current.value = "";
-          dispatch(addPost(response.data));
-          console.log(response.data);
-          removeImage();
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      const newPost = {
+        id: Date.now(), // or any unique identifier
+        post: inputRef.current.value,
+        name: "James Sun",
+        email: "chuwen.sun@yahoo.com",
+        profilePic: "https://pics.craiyon.com/2023-09-23/c5378dbcded44eb4897d9a7fc7e58863.webp",
+        image: imageToPost,
+      };
+
+      inputRef.current.value = "";
+      removeImage();
+      dispatch(newPost);
+      console.log(response.data);
+
+
     };
   
     const addImageToPost = (e) => {
