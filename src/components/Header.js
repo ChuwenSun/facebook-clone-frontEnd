@@ -52,12 +52,12 @@ const Header = () => {
             <HiBell size={20} className="hidden lg:inline-flex h-10 w-10 bg-gray-200 text-gray-600 rounded-full p-2 cursor-pointer hover:bg-gray-300" />
             <Image 
                 onClick={signOut}
-                src={session?.user.image}
+                src="https://pics.craiyon.com/2023-09-23/c5378dbcded44eb4897d9a7fc7e58863.webp"
                 height={40}
                 width={40}
                 className="rounded-full cursor-pointer"
                 ></Image>
-            <p className="hidden xl:inline-flex font-semibold text-sm whitespace-nowrap p-3 max-w-xs">{session?.user.name.split(" ")[0]}</p>
+            <p className="hidden xl:inline-flex font-semibold text-sm whitespace-nowrap p-3 max-w-xs">{"James Sun".split(" ")[0]}</p>
         </div>
     </div>
   )
