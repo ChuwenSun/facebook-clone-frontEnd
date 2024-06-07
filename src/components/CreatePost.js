@@ -66,7 +66,7 @@ const CreatePost = () => {
       <div className="bg-white rounded-md shadow-md text-gray-500 p-2 divide-y">
         <div className="flex p-4 space-x-2 items-center">
           <Image
-            src="https://www.craiyon.com/image/IukKeSxLQMmVi5AarqVTGA"
+            src="https://pics.craiyon.com/2023-09-23/c5378dbcded44eb4897d9a7fc7e58863.webp"
             height={40}
             width={40}
             className="rounded-full cursor-pointer"

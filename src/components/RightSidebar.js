@@ -13,10 +13,10 @@ const RightSidebar = () => {
                 <div className="rounded-full p-2 hover:bg-gray-200 cursor-pointer"><IoIosMore /></div>
             </div>
         </div>
-        <Contacts src="https://www.craiyon.com/image/pmlZFe-ATVuQEDHDYfsTwg" name="Adelaide Buchanan" status="Online"/>
-        <Contacts src="https://www.craiyon.com/image/ZtVEv-w-Ssq7kptQjtV99w" name="Savannah Poole" status="Online"/>
-        <Contacts src="https://www.craiyon.com/image/wWjBmnoXSLCZVoZllu5DYA" name="Yasin Whitney" status="Offline"/>
-        <Contacts src="https://www.craiyon.com/image/5v6cm2xGRemZergApbs7nQ" name="Flora Foley" status="Online"/>
+        <Contacts src="https://pics.craiyon.com/2023-11-02/de36503b85074684ae64e3eda0d93a07.webp" name="Adelaide Buchanan" status="Online"/>
+        <Contacts src="https://pics.craiyon.com/2023-10-22/6e333c19a5b04f52bf1933df96ed677f.webp" name="Savannah Poole" status="Online"/>
+        <Contacts src="https://pics.craiyon.com/2023-10-14/5e672f76894a48bba8209213a20c4c98.webp" name="Yasin Whitney" status="Offline"/>
+        <Contacts src="https://pics.craiyon.com/2023-09-28/e15881b0e430469da6271ef87dc6736a.webp" name="Flora Foley" status="Online"/>
     </div>
   )
 }

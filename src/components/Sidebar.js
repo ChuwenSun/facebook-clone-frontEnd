@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className="hidden lg:inline-flex flex-col py-2 pl-2 max-w-xl lg:min-w-[302px]">
         <div className="flex items-center space-x-2 py-3 pl-4 hover:bg-gray-200 rounded-l-xl cursor-pointer">
         <Image 
-            src="https://www.craiyon.com/image/IukKeSxLQMmVi5AarqVTGA"
+            src="https://pics.craiyon.com/2023-09-23/c5378dbcded44eb4897d9a7fc7e58863.webp"
             height={40}
             width={40}
             className="rounded-full cursor-pointer"></Image>
