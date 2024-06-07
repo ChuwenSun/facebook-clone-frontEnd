@@ -26,7 +26,7 @@ export default function Home({ session }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps (context) {
   const session = await getSession(context);
   return {
     props: {
