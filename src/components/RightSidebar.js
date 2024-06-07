@@ -13,10 +13,10 @@ const RightSidebar = () => {
                 <div className="rounded-full p-2 hover:bg-gray-200 cursor-pointer"><IoIosMore /></div>
             </div>
         </div>
-        <Contacts src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" name="temp user" status="Online"/>
-        <Contacts src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" name="temp user" status="Online"/>
-        <Contacts src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" name="temp user" status="Offline"/>
-        <Contacts src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" name="temp user" status="Online"/>
+        <Contacts src="https://newprofilepic.com/assets/images/article/30_img.png" name="Adelaide Buchanan" status="Online"/>
+        <Contacts src="https://newprofilepic.com/assets/images/article/32_img.png" name="Savannah Poole" status="Online"/>
+        <Contacts src="https://newprofilepic.com/assets/images/article/33_img.png" name="Yasin Whitney" status="Offline"/>
+        <Contacts src="https://newprofilepic.com/assets/images/article/28_img.png" name="Flora Foley" status="Online"/>
     </div>
   )
 }

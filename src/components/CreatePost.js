@@ -66,7 +66,7 @@ const CreatePost = () => {
       <div className="bg-white rounded-md shadow-md text-gray-500 p-2 divide-y">
         <div className="flex p-4 space-x-2 items-center">
           <Image
-            src={session?.user.image}
+            src="./src/assets/img/FB_IMG_1717796883982.jpg"
             height={40}
             width={40}
             className="rounded-full cursor-pointer"
@@ -76,7 +76,7 @@ const CreatePost = () => {
               className="rounded-full h-12 flex-grow focus:outline-none font-medium bg-gray-100 px-4"
               type="text"
               ref={inputRef}
-              placeholder={`What's on your mind, ${session?.user.name}?`}></input>
+              placeholder={"What's on your mind, James Sun?"}></input>
             <button hidden onClick={handleSubmit}>
               Submit
             </button>
