@@ -35,7 +35,7 @@ const CreatePost = () => {
 
       inputRef.current.value = "";
       removeImage();
-      dispatch(newPost);
+      dispatch(addPost(newPost));
       console.log(response.data);
 
 
